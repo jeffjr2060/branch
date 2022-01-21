@@ -1,0 +1,147 @@
+.adminContainer{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+ align-items: center;
+ background-color: #008080;
+
+}
+.email{
+    position: absolute;
+    margin-left:-18%;
+    margin-top: -0.4%;
+    color: #fff;
+}
+.addBtn{
+    display: flex;
+    position: absolute;
+    margin-left: 86%;
+    top: 85px;
+  
+}
+.registerBtn{
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.logoutBtn{
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    margin-left:-30%;
+}
+.userTable{
+    display: block;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;  
+    position: absolute;
+    top:20%;
+}
+.table{
+    display: block;
+}
+
+
+.modal {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.pageContainer{
+    display: flex;
+    min-width: 100vh;
+    min-height: 100vh;
+    background: green;
+    backdrop-filter: blur(9px);
+    align-items: center;
+    justify-content: center;
+}
+.containerHolder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items:center;
+}
+.profileicon{
+    display:flex;
+    width:100px;
+    height:100px;
+    border-radius: 120px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    z-index: 5px; 
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background-color: green;
+    box-shadow: 0px 10px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.form{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 300px;
+   }
+input{
+    display: block;
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    outline: none;
+    border: #fff;
+    background: rgba(12, 13, 13, 0.69);
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 60px;
+    margin-top: 10px;
+    margin-left: 55px;
+    border-radius: 8px;
+    outline: none;
+   
+}

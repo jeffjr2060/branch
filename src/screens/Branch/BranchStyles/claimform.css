@@ -1,0 +1,27 @@
+.container{
+    display:flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.containerHolder{
+    display: flex;
+    width: 100%;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+.firstColumn, .secondColumn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8px;
+}
+.left, .center, .Right{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
